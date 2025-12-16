@@ -1,20 +1,21 @@
 package org.chevalierlabsas.cashier.home.presentation.components
-import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import org.jetbrains.compose.resources.stringResource
-import androidx.compose.material3.Icon
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material3.OutlinedTextFieldDefaults
-import cashier.composeapp.generated.resources.Res
-import org.jetbrains.compose.ui.tooling.preview.Preview
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Surface
-import cashier.composeapp.generated.resources.searchbar_hint
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.unit.dp
+import cashier.composeapp.generated.resources.Res
+import cashier.composeapp.generated.resources.searchbar_hint
+import org.jetbrains.compose.resources.stringResource
+import org.jetbrains.compose.ui.tooling.preview.Preview
+
 @Composable
 fun Searchbar(
     modifier: Modifier = Modifier, // Saat di input
